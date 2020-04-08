@@ -93,9 +93,9 @@ startRound = () => {
 
 const gameOver = (status) => {
     if(status === "win"){
-      start.innerHTML = "You win! Play again?"
+      start.innerHTML = "Bạn thắng rùa! Chơi lại nào!"
     }
-    else{start.innerHTML = "Game Over!Play Again?"};
+    else{start.innerHTML = "Dìa dia! Thua rồi. Chơi lại!"};
   currentlyPlaying = false;
 };
 
